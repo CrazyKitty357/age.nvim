@@ -14,3 +14,10 @@ age(actually good encryption) is the spritual successor to pgp(pretty good priva
 - note: the `~` macro does not work use `/home/username` instead.
 6. make a file, save it is file.whatever.age and the contents of that file should be encrypted
 7. conversely if you open that same saved file in neovim you should now be able to read it.
+
+## Roadmap
+- [ ] lazy.nvim compatible configuration
+- [ ] adding support for age's various encryption types that isn't just the default
+    - [x] post-quantum
+        - generate your key with the -pq flag, it should generate a private/public key pair that's post-quantum resistant!
+    - [ ] a password
